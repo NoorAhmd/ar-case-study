@@ -1,0 +1,26 @@
+{
+    "name": "case-study",
+    "version": "1.0.0",
+    "main": "index.js",
+    "description": "A sample NodeJs project for case study challenge",
+    "author": "Noor Ahmad",
+    "license": "ISC",
+    "scripts": {
+        "test": "nodemon --exec  'mocha --recursive -R min'",
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "dotenv": "^8.6.0",
+        "express": "^4.17.3",
+        "fs-extra": "^10.0.1",
+        "joi": "^17.6.0",
+        "swagger-jsdoc": "^6.1.0",
+        "swagger-ui-express": "^4.3.0"
+    },
+    "devDependencies": {
+        "mocha": "^8.4.0",
+        "nodemon": "^2.0.4",
+        "supertest": "^6.2.2"
+    }
+}

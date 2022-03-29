@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Person 1",
+        "type": "image",
+        "url": "https://loremflickr.com/320/240/cat",
+        "duration": 2
+    },
+    {
+        "name": "sas",
+        "duration": 4,
+        "url": "https://loremflickr.com/320/240/fish",
+        "type": "image"
+    }
+]
